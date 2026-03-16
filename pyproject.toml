@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tic_tac_toe"
+version = "0.1.0"
+description = ""
+authors = ["Szymon Józef <szymon_jozef@proton.me>"]
+readme = "README.md"
+license = "mit"
+packages = [
+  { include = "tic_tac_toe" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+textual = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
