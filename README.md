@@ -4,11 +4,7 @@
 
 Supports only polish language.
 
-# Run
-## Nix
-```bash
-nix run github:szymon-jozef/tic-tac-toe-textual
-```
+# Install
 ## Linux and MacOS
 ```bash
 pipx install git+https://github.com/szymon-jozef/tic-tac-toe-textual
@@ -16,4 +12,15 @@ pipx install git+https://github.com/szymon-jozef/tic-tac-toe-textual
 ## Windows
 ```bash
 pip install git+https://github.com/szymon-jozef/tic-tac-toe-textual
+```
+
+# Run
+## Nix
+```bash
+nix run github:szymon-jozef/tic-tac-toe-textual
+```
+
+## Windows, Linux, MacOS
+```bash
+tic-tac-toe
 ```
