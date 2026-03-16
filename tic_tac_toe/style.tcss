@@ -1,4 +1,69 @@
+Screen {
+    align: center middle;
+}
+
+GameColumn {
+    height: auto;
+    align: center middle;
+}
+
 .game-field {
+    width: 30%;
+    height: 10;
+    content-align: center middle;
     margin: 1;
-    padding: 5;
+    padding: 1;
+    border: thick $success;
+}
+
+.game-field:hover {
+    background: $surface-lighten-1;
+}
+
+.global-symbol {
+    width: 100%;
+    height: 3;
+    align: center middle;
+    text-style: bold;
+    color: $accent;
+}
+
+.player-x {
+    color: $error;
+    text-style: bold;
+}
+
+.player-o {
+    color: $secondary;
+    text-style: bold;
+}
+
+WinnerScreen {
+    align: center middle;
+    background: $background 80%;
+}
+
+.dialog-box {
+    width: 40;
+    height: auto;
+    background: $surface;
+    border: thick $primary; 
+    padding: 1 2;
+    align: center middle; 
+}
+
+.dialog-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1;
+}
+
+.dialog-buttons {
+    width: 100%;
+    height: auto;
+    align: center middle; 
+}
+
+.dialog-buttons Button {
+    margin: 0 2;
 }
